@@ -177,8 +177,9 @@ export default class Create extends Command {
 
           if (stack === 'fullstack') {
             fulleStackPrompt.run().then(async (frameWork: string) => {
-              if (frameWork === 'nestjs') {
+              if (frameWork === 'react with nestjs') {
                 // show on stdout instead of stderr
+
                 cli.action.start(
                   `🎇🎇🎇 creating your ${chalk.yellow(frameWork)} app`,
                   'this takes a while, you should go grab a coffee☕',
