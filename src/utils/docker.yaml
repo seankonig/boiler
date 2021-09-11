@@ -2,7 +2,6 @@ version: '3'
 
 services:
     nginx:
-        platform: linux/amd64
         restart: always
         depends_on:
             - api
@@ -13,7 +12,6 @@ services:
         ports:
             - '3050:80'
     api:
-        platform: linux/amd64
         build:
             dockerfile: Dockerfile.dev
             context: ./backend

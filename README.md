@@ -14,3 +14,16 @@ $ npx boiler create
 $ npm i -g boiler
 $ boiler create
 ```
+
+<!-- note -->
+
+if you have a mac with a m1 chip add a platform flag to the api and nginx services in the docker-compose file.
+
+```
+nginx:
+    platform: linux/amd64
+api:
+    platform: linux/amd64
+```
+
+🤘enjoy
