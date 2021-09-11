@@ -1,16 +1,15 @@
 upstream client {
-    server client:3000;
+    server client:3050;
 }
 
 upstream api {
-    server api:4000;
+    server api:3000;
 }
 
 server {
 
     listen 80;
     server_tokens off;
-    server_name fortifyapp.co.za www.fortifyapp.co.za;
 
     location / {
         proxy_pass http://client;

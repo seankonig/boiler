@@ -1,6 +1,5 @@
 // eslint-disable-next-line unicorn/filename-case
 import { readFileSync, writeFile } from 'fs';
-import cli from 'cli-ux';
 const yaml = require('js-yaml');
 
 const createDockerCompose = (projectName: string) => {
@@ -13,7 +12,6 @@ const createDockerCompose = (projectName: string) => {
                 throw new Error(err?.message);
             });
         }
-        cli.log('🚀 Created Docker Compose file');
     });
 };
 

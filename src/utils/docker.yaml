@@ -11,7 +11,7 @@ services:
             dockerfile: Dockerfile.dev
             context: ./nginx
         ports:
-            - '3000:80'
+            - '3050:80'
     api:
         platform: linux/amd64
         build:
@@ -20,7 +20,6 @@ services:
         volumes:
             - /app/node_modules
             - ./backend:/app
-        env_file: ./backend/.env
     client:
         stdin_open: true
         build:

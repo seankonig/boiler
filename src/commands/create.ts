@@ -54,14 +54,9 @@ export default class Create extends Command {
             name: 'fullstack',
             message: 'Select an option',
             choices: [
-                `${chalk.blueBright('react')} with ${chalk.yellow('nestjs')}`,
                 `${chalk.blueBright('react')} with ${chalk.yellowBright(
-                    'express'
-                )}`,
-                `${chalk.red('angular')} with ${chalk.yellow('nestjs')}`,
-                `${chalk.red('angular')} with ${chalk.yellowBright('express')}`,
-                `${chalk.green('vue')} with ${chalk.yellow('nestjs')}`,
-                `${chalk.green('vue')} with ${chalk.yellowBright('express')}`
+                    'nestjs'
+                )}`
             ]
         });
 
@@ -197,9 +192,7 @@ export default class Create extends Command {
                                     )} with ${chalk.yellow('nestjs')}`
                                 ) {
                                     createReactNestFullStack({
-                                        projectName,
-                                        client: 'react',
-                                        server: 'nestjs'
+                                        projectName
                                     });
                                 }
                             });
