@@ -5,18 +5,6 @@ boiler helps you to create client or server side project with one command. it si
 🤘this is probably useless, but it was really fun to build
 
 <!-- usage -->
-```sh-session
-$ npm install -g typescript_boiler
-$ boiler COMMAND
-running command...
-$ boiler (-v|--version|version)
-typescript_boiler/0.0.3 darwin-arm64 node-v16.4.0
-$ boiler --help [COMMAND]
-USAGE
-  $ boiler COMMAND
-...
-```
-<!-- usagestop -->
 
 ```
 $ npx boiler create
@@ -33,4 +21,4 @@ api:
     platform: linux/amd64
 ```
 
-🤘enjoy
+enjoy
