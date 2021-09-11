@@ -189,7 +189,7 @@ export default class Create extends Command {
                                     frameWork ===
                                     `${chalk.blueBright(
                                         'react'
-                                    )} with ${chalk.yellow('nestjs')}`
+                                    )} with ${chalk.yellowBright('nestjs')}`
                                 ) {
                                     createReactNestFullStack({
                                         projectName
