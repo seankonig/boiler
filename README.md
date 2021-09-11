@@ -4,15 +4,10 @@ boiler helps you to create client or server side project with one command. it si
 
 🤘this is probably useless, but it was really fun to build
 
-<!-- two options -->
+<!-- usage -->
 
 ```
 $ npx boiler create
-```
-
-```
-$ npm i -g boiler
-$ boiler create
 ```
 
 <!-- note -->
