@@ -1,7 +1,7 @@
 {
     "name": "typescript_boiler",
     "description": "create boilerplate code",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "author": "Sean Konig",
     "bin": {
         "boiler": "./bin/run"
