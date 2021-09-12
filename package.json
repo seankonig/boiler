@@ -45,7 +45,13 @@
     ],
     "homepage": "https://github.com/seankonig/boiler",
     "keywords": [
-        "oclif"
+        "boilerplate",
+        "react",
+        "angular",
+        "vue",
+        "nestjs",
+        "express",
+        "cli"
     ],
     "license": "MIT",
     "main": "lib/index.js",
